@@ -6,9 +6,9 @@
 MotorControl  motor_control = MotorControl(0);
 
 PibotController::PibotController()
-: Node("pibot_contorller"){
+: Node("pibot_controller"){
     subscription_=this->create_subscription<sensor_msgs::msg::Joy>(
-        "contoller/joy",
+        "controller/joy",
         [this](const sensor_msgs::msg::Joy::SharedPtr joy){
             motor_control.drive();
             RCLCPP_INFO(this->get_logger(), "Joy: %s", joy->axes);
