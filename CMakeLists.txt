@@ -27,10 +27,17 @@ add_executable(pibot_controller
   src/pibot_controller_main.cpp
   src/pibot_controller.cpp
   src/motor_control.cpp
+  src/tb6612_driver.cpp
 )
 ament_target_dependencies(pibot_controller
   rclcpp
   sensor_msgs
+)
+target_compile_options(pibot_controller
+  PUBLIC -Wall -pthread
+)
+target_link_libraries(pibot_controller
+  pigpio
 )
 
 install(TARGETS
