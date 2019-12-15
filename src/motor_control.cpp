@@ -1,7 +1,11 @@
-#include "motor_control.hpp"
 #include <stdio.h>
 #include <iostream>
 #include <math.h>
+#include "motor_control.hpp"
+#include "tb6612_driver.hpp"
+
+TB6612Driver tb6612_right(MotorPosition::RIGHT_MOTOR);
+TB6612Driver tb6612_left(MotorPosition::LEFT_MOTOR);
 
 MotorControl::MotorControl(int pin1)
 {
@@ -23,4 +27,6 @@ void MotorControl::drive(float x, float y)
 {
     MotorVelocity mv;
     mv = joy2vel_(x, y);
+    tb6612_right.rotate(mv.v_r);
+    tb6612_right.rotate(mv.v_l);
 }
