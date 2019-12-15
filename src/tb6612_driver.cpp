@@ -24,6 +24,10 @@ TB6612Driver::TB6612Driver(MotorPosition motor_position)
         pwm = 18;
         stby = 23;
     }
+    gpioSetMode(in1, PI_OUTPUT);
+    gpioSetMode(in1, PI_OUTPUT);
+    gpioSetMode(stby, PI_OUTPUT);
+    gpioSetMode(pwm, PI_ALT5);
 
 }
 
@@ -60,4 +64,5 @@ TB6612Driver::~TB6612Driver(void)
     gpioWrite(in1, 0);
     gpioWrite(in2, 0);
     gpioPWM(pwm, 0);
+    gpioTerminate();
 }
