@@ -29,3 +29,6 @@
 - sudo apt install ros2-dashing-joy
 - sudo apt install ros-dashing-joy-teleop
 
+## 同じネットワークでROS2
+ - ROS_DOMAIN_IDで接続
+ - VMWareを使っている場合は、ブリッジ接続にする
