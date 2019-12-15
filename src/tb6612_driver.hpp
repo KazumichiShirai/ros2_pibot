@@ -10,4 +10,4 @@ public:
     TB6612Driver(MotorPosition motor_position);
     void rotate(float v);
     ~TB6612Driver();
-}
+};
