@@ -11,7 +11,7 @@ PibotController::PibotController()
         "controller/joy",
         [this](const sensor_msgs::msg::Joy::SharedPtr joy){
             motor_control.drive();
-            RCLCPP_INFO(this->get_logger(), "Joy: %s", joy->axes);
+            RCLCPP_INFO(this->get_logger(), "Joy: %f", joy->axes[0]);
         }
     );
 }
