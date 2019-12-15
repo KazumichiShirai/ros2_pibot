@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <math.h>
 #include "tb6612_driver.hpp"
 
@@ -8,6 +9,8 @@ unsigned int stby;
 
 TB6612Driver::TB6612Driver(MotorPosition motor_position)
 {
+    static std::once_flag flag;
+    std::call_once(flag, gpioInitialise());
     if(motor_position == MotorPosition::RIGHT_MOTOR){
         in1 = 2;
         in2 = 3;
