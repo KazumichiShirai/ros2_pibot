@@ -4,4 +4,4 @@
  ##  pibot_controller.cpp
 
 # ROS API
-## ~contoller/joy
+## ~contoller/joy  [(sensor_msgs/Joy)](http://docs.ros.org/api/sensor_msgs/html/msg/Joy.html)
