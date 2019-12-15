@@ -12,7 +12,7 @@ class MotorControl
 private:
     MotorVelocity joy2vel_(float x, float y);
 public:
-    MotorControl(int pin1);
+    MotorControl(void);
 
     void drive(float x, float y);
 };

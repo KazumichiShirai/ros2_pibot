@@ -3,7 +3,7 @@
 #include  "pibot_controller.hpp"
 #include "motor_control.hpp"
 
-MotorControl  motor_control = MotorControl(0);
+MotorControl  motor_control = MotorControl();
 
 PibotController::PibotController()
 : Node("pibot_controller"){

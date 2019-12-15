@@ -7,9 +7,8 @@
 TB6612Driver tb6612_right(MotorPosition::RIGHT_MOTOR);
 TB6612Driver tb6612_left(MotorPosition::LEFT_MOTOR);
 
-MotorControl::MotorControl(int pin1)
+MotorControl::MotorControl(void)
 {
-    std::cout << pin1;
 }
 
 MotorVelocity MotorControl::joy2vel_(float x, float y)
