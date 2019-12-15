@@ -51,8 +51,8 @@ void TB6612Driver::rotate(float v){
 
 TB6612Driver::~TB6612Driver(void)
 {
-    gpio(stby, 0);
-    gpio(in1, 0);
-    gpio(in2, 0);
-    gpio(in3, 0);
+    gpioWrite(stby, 0);
+    gpioWrite(in1, 0);
+    gpioWrite(in2, 0);
+    gpioPWM(pwm, 0);
 }
