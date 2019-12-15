@@ -17,8 +17,15 @@
 
 ## pigpio
  - http://abyz.me.uk/rpi/pigpio/download.html 通りにインストール
+ - pigpioの関数は、スーパーユーザ権限でないと実行できない
+ ```
+ $ sudo -i
+ # . install/setup.bash
+```
+上記のコマンドをしてから実行
 
 ## gamepad
 - logicool gamepad f310
 - sudo apt install ros2-dashing-joy
 - sudo apt install ros-dashing-joy-teleop
+
