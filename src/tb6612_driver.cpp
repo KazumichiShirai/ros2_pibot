@@ -8,7 +8,7 @@ unsigned int stby;
 
 TB6612Driver::TB6612Driver(MotorPosition motor_position)
 {
-    if(motor_position == RIGHT_MOTOR){
+    if(motor_position == MotorPosition::RIGHT_MOTOR){
         in1 = 2;
         in2 = 3;
         pwm = 4;
