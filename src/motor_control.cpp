@@ -27,5 +27,5 @@ void MotorControl::drive(float x, float y)
     MotorVelocity mv;
     mv = joy2vel_(x, y);
     tb6612_right.rotate(mv.v_r);
-    tb6612_right.rotate(mv.v_l);
+    tb6612_left.rotate(mv.v_l);
 }
