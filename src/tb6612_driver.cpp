@@ -25,7 +25,7 @@ TB6612Driver::TB6612Driver(MotorPosition motor_position)
         stby = 23;
     }
     gpioSetMode(in1, PI_OUTPUT);
-    gpioSetMode(in1, PI_OUTPUT);
+    gpioSetMode(in2, PI_OUTPUT);
     gpioSetMode(stby, PI_OUTPUT);
     gpioSetMode(pwm, PI_ALT5);
 
