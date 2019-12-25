@@ -61,4 +61,5 @@ TB6612Driver::~TB6612Driver(void)
     gpioWrite(in2, 0);
     gpioPWM(pwm, 0);
     gpioTerminate();
+    gpioInitialise();
 }
