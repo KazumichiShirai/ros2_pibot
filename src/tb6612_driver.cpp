@@ -4,10 +4,6 @@
 #include <math.h>
 #include "tb6612_driver.hpp"
 
-unsigned int in1;
-unsigned int in2;
-unsigned int pwm;
-unsigned int stby;
 
 TB6612Driver::TB6612Driver(MotorPosition motor_position)
 {
