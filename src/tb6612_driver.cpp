@@ -50,7 +50,7 @@ void TB6612Driver::rotate(float v){
     }
 
     unsigned dutycycle; //range:[0:255]
-    dutycycle = (unsigned)(v * 255.0);
+    dutycycle = (unsigned)(fabs(v) * 255.0);
     gpioPWM(pwm, dutycycle);
 }
 
