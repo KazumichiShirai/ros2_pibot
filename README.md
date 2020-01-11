@@ -4,7 +4,7 @@
  ##  pibot_controller.cpp
 
 # ROS API
-## ~contoller/joy  [(sensor_msgs/Joy)](http://docs.ros.org/api/sensor_msgs/html/msg/Joy.html)
+## ~controller/joy  [(sensor_msgs/Joy)](http://docs.ros.org/api/sensor_msgs/html/msg/Joy.html)
 
 # memo
 ## motor_control.cpp
@@ -19,7 +19,7 @@
  - http://abyz.me.uk/rpi/pigpio/download.html 通りにインストール
  - pigpioの関数は、スーパーユーザ権限でないと実行できない
  ```
- $ sudo -i
+ $ sudo su
  # . install/setup.bash
 ```
 上記のコマンドをしてから実行
