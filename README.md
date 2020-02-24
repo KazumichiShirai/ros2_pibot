@@ -12,6 +12,19 @@ Ubuntu-18.04.3 64bit (Rapsberry Pi 3 B+にインストールする)
 
 Raspbianではないので、注意
 
+# 事前インストール
+## ROS2
+
+## pigpio
+http://abyz.me.uk/rpi/pigpio/download.html 通りにインストール
+
+```
+wget https://github.com/joan2937/pigpio/archive/v74.zip
+unzip v74.zip
+cd pigpio-74
+make
+sudo make install
+```
 # ROS API
 ## ~controller/joy  [(sensor_msgs/Joy)](http://docs.ros.org/api/sensor_msgs/html/msg/Joy.html)
 
