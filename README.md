@@ -7,6 +7,11 @@
  - モバイルバッテリー
  - [ＴＢ６６１２使用　Ｄｕａｌ　ＤＣモータードライブキット](http://akizukidenshi.com/catalog/g/gK-11219/)
 
+# 動作環境
+Ubuntu-18.04.3 64bit (Rapsberry Pi 3 B+にインストールする)
+
+Raspbianではないので、注意
+
 # ROS API
 ## ~controller/joy  [(sensor_msgs/Joy)](http://docs.ros.org/api/sensor_msgs/html/msg/Joy.html)
 
