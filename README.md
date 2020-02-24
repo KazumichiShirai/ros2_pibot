@@ -13,7 +13,7 @@ Ubuntu-18.04.3 64bit (Rapsberry Pi 3 B+にインストールする)
 Raspbianではないので、注意
 
 # 事前インストール
-## ROS2
+## ROS2 (Dashing Diademata)
 
 ## pigpio
 http://abyz.me.uk/rpi/pigpio/download.html 通りにインストール
