@@ -30,6 +30,15 @@ cd pigpio-74
 make
 sudo make install
 ```
+
+# Usage
+```
+$ sudo su
+# . install/setup.bash
+# ros2 run ros2_pibot pibot_controller
+# cd ./ros2_pibot_ws/
+```
+
 # ROS API
 ## ~controller/joy  [(sensor_msgs/Joy)](http://docs.ros.org/api/sensor_msgs/html/msg/Joy.html)
 
