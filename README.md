@@ -72,6 +72,11 @@ $ sudo su
 - sudo apt install ros2-dashing-joy
 - sudo apt install ros-dashing-joy-teleop
 
+```
+export ROS_DOMAIN_ID=27
+ros2 run joy joy_node joy:=/controller/joy
+```
+
 ## 同じネットワークでROS2
  - ROS_DOMAIN_IDで接続
  - VMWareを使っている場合は、ブリッジ接続にする
