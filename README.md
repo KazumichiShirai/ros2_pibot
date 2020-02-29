@@ -16,7 +16,7 @@ Ubuntu-18.04.3 64bit (Rapsberry Pi 3 B+にインストールする)
 
 Raspbianではないので、注意
 
-# 事前インストール
+# Requirements
 ## ROS2 (Dashing Diademata)
 https://index.ros.org/doc/ros2/Installation/Dashing/Linux-Install-Debians/
 
