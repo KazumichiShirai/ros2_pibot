@@ -49,7 +49,7 @@ $ sudo su
 # ROS API
 ## ~controller/joy  [(sensor_msgs/Joy)](http://docs.ros.org/api/sensor_msgs/html/msg/Joy.html)
 
-# memo
+# Memo
 ## motor_control.cpp
 ### 概要
  - joy[X]とjoy[Y]をもらい、その値に応じて２つのモーターを制御する
