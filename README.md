@@ -31,12 +31,19 @@ make
 sudo make install
 ```
 
+# Clone and Build
+```
+$ mkdir ros2_test_ws
+$ cd ./ros2_test_ws
+$ git clone https://github.com/KazumichiShirai/ros2_pibot.git
+$ colcon build --symlink-install
+```
+
 # Usage
 ```
 $ sudo su
 # . install/setup.bash
 # ros2 run ros2_pibot pibot_controller
-# cd ./ros2_pibot_ws/
 ```
 
 # ROS API
