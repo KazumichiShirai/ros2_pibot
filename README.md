@@ -48,6 +48,19 @@ $ sudo su
 # ros2 run ros2_pibot pibot_controller
 ```
 
+## gamepadで操作したい場合
+Raspbeey Piでは次のコマンドを実行して、pibot_controllerを実行
+```
+$ sudo su
+# . install/setup.bash
+# ros2 run ros2_pibot pibot_controller
+```
+
+gamepadを接続したPCがRaspberry piと同じネットワーク上にある状態で、そのPC上で次のコマンドを実行
+```
+$ ros2 run joy joy_node joy:=/controller/joy
+```
+
 # ROS API
 ## ~controller/joy  [(sensor_msgs/Joy)](http://docs.ros.org/api/sensor_msgs/html/msg/Joy.html)
 
