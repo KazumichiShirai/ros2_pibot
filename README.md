@@ -4,8 +4,10 @@
 # Hardware
  - Raspberry Pi 3 B+
  - [タミヤ ショベルドーザー工作基本セット](https://www.amazon.co.jp/%E3%82%BF%E3%83%9F%E3%83%A4-%E6%A5%BD%E3%81%97%E3%81%84%E5%B7%A5%E4%BD%9C%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-No-107-%E3%82%B7%E3%83%A7%E3%83%99%E3%83%AB%E3%83%89%E3%83%BC%E3%82%B6%E3%83%BC%E5%B7%A5%E4%BD%9C%E5%9F%BA%E6%9C%AC%E3%82%BB%E3%83%83%E3%83%88-70107/dp/B002DR3H5I/ref=pd_aw_sbs_21_5/356-6988335-3432811?_encoding=UTF8&pd_rd_i=B002DR3H5I&pd_rd_r=47ed4ac3-e9e9-4253-87ec-194fb1966823&pd_rd_w=8iAcA&pd_rd_wg=sCtHp&pf_rd_p=1893a417-ba87-4709-ab4f-0dece788c310&pf_rd_r=8J7W5P57K8F1MMVJAQH6&psc=1&refRID=8J7W5P57K8F1MMVJAQH6)
- - モバイルバッテリー
+ - モバイルバッテリー (Raspberry Piの電源)
  - [ＴＢ６６１２使用　Ｄｕａｌ　ＤＣモータードライブキット](http://akizukidenshi.com/catalog/g/gK-11219/)
+ - [電池ボックス　単3×2本](http://akizukidenshi.com/catalog/g/gP-00208/)
+ - 各パーツを接続するワイヤー
 
 <img src="https://user-images.githubusercontent.com/1625932/75606242-21af9600-5b2e-11ea-855c-77d55bd2453f.png" width="600px">
 
