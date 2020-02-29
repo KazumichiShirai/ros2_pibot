@@ -18,6 +18,7 @@ Raspbianではないので、注意
 
 # 事前インストール
 ## ROS2 (Dashing Diademata)
+https://index.ros.org/doc/ros2/Installation/Dashing/Linux-Install-Debians/
 
 ## pigpio
 http://abyz.me.uk/rpi/pigpio/download.html 通りにインストール
